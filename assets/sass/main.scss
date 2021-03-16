@@ -1,0 +1,51 @@
+@import "lib/vars";
+
+@import "fontface";
+
+@import "lib/typo";
+@import "lib/utils";
+@import "lib/bootstrap/bootstrap";
+
+
+
+
+
+
+* {
+    // border: 1px solid tomato;  
+}
+
+
+
+.stories{
+    overflow: auto;
+    white-space: nowrap;
+}
+.filters{
+    overflow: auto;
+    white-space: nowrap;
+}
+.image_wrap {@include full_image;}
+
+.pill_new {
+    right: 0px;
+    top: 0px;
+}
+.pill_recommend {
+    right: 50px;
+    top: 0px;
+}
+
+.user_profile{
+    top: 50%;
+    z-index: 10;
+}
+
+.image_wrap{
+    z-index: 1;
+}
+
+.toolbar{
+    left:0;
+    bottom:3%;
+}
